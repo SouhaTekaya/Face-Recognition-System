@@ -12,16 +12,16 @@ Run extract_embeddings.py to generate and save face embeddings for authorized us
 Finally, run test.py to launch the real-time system: it detects the face, checks for spoofing, and grants access if the face is real and recognized.
 
 ===================================
-Before running the project, make sure to install the following Python libraries
+Before running the project, make sure to install the following Python libraries :
 
-pip install opencv-python
-pip install numpy
-pip install torch torchvision torchaudio
-pip install facenet-pytorch
-pip install matplotlib
-pip install Pillow
-pip install scikit-learn
-pip install roboflow
+pip install opencv-python --
+pip install numpy --
+pip install torch torchvision torchaudio --
+pip install facenet-pytorch --
+pip install matplotlib --
+pip install Pillow --
+pip install scikit-learn --
+pip install roboflow --
 pip install pypylon
 
 
