@@ -58,7 +58,7 @@ for epoch in range(epochs):
         correct += (preds == labels).sum().item()
 
     accuracy = correct / len(train_dataset)
-    print(f"📘 Epoch {epoch+1}/{epochs} - Train Loss: {train_loss:.4f} - Accuracy: {accuracy:.4f}")
+    print(f" Epoch {epoch+1}/{epochs} - Train Loss: {train_loss:.4f} - Accuracy: {accuracy:.4f}")
 
 # === 7. Save the model ===
 torch.save(model.state_dict(), "anti_spoofing_model.pth")
